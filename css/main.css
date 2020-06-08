@@ -1,0 +1,122 @@
+body {
+  font: 15px "Poppins", sans-serif;
+  background-color: #fafafa;
+  margin: 0;
+  padding: 0;
+  line-height: 1.5;
+  color: #4c4e61;
+}
+
+body h1 {
+  font-weight: 200;
+  color: #4c4e61;
+  font-size: 32px;
+  margin-bottom: 0;
+}
+
+body h2 {
+  font-size: 32px;
+  margin-top: 0;
+  margin-bottom: 2px;
+}
+
+body p {
+  width: 480px;
+  text-align: center;
+  color: #a3a5ae;
+}
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.container .heading {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 200px;
+  margin: 0;
+}
+
+.container .card-layout {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  height: 900px;
+  width: 100%;
+}
+
+.container .card-area {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  width: 33.3%;
+  height: 100%;
+}
+
+.container .card {
+  width: 75%;
+  border-radius: 5px;
+  -webkit-box-shadow: 5px 20px 15px rgba(0, 0, 0, 0.17);
+          box-shadow: 5px 20px 15px rgba(0, 0, 0, 0.17);
+  height: 350px;
+  padding-left: 5%;
+  padding-top: 5%;
+  background-color: white;
+}
+
+.container .card p {
+  text-align: unset;
+  width: 300px;
+}
+
+.container .card .svg {
+  -webkit-transform: translate(350px, 120px);
+          transform: translate(350px, 120px);
+}
+
+.container .card-left {
+  border-top: 5px solid #45d3d3;
+}
+
+.container .card-middle__top {
+  border-top: 5px solid #ea5353;
+}
+
+.container .card-middle__bottom {
+  border-top: 5px solid #fcaf4a;
+}
+
+.container .card-right {
+  border-top: 5px solid #549ef2;
+}
+/*# sourceMappingURL=main.css.map */
